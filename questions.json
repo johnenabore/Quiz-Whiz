@@ -1,0 +1,64 @@
+{
+    "questions":[
+    {
+        "question": "In what galaxy is our solar system located?",
+        "options": ["Andromeda Galaxy","Milky Way Galaxy","Triangulum Galaxy","Sombrero Galaxy"],
+        "answer": "Milky Way Galaxy",
+        "trivia": "Our solar system is part of the Milky Way Galaxy, which is a barred spiral galaxy containing billions of stars, including our Sun!"
+    },
+    {
+        "question": "Red, yellow, and blue are examples of what?",
+        "options": ["Primary colors","Secondary colors","Tertiary colors","Neutral colors"],
+        "answer": "Primary colors",
+        "trivia": "Red, yellow, and blue are known as the primary colors. They are unique because you cannot create them by mixing other colors, but by combining them, you can create a wide range of other colors!"
+    },
+    {
+        "question": "What type of gas is absorbed by plants?",
+        "options": ["Oxygen","Carbon dioxide","Nitrogen","Hydrogen"],
+        "answer": "Carbon dioxide",
+        "trivia": "Plants absorb carbon dioxide during photosynthesis, a process where they convert sunlight, water, and carbon dioxide into energy (glucose) and release oxygen as a byproduct. This cycle is crucial for maintaining the balance of gases in our atmosphere!"
+    },
+    {
+        "question": "Which planet is known as the “Red Plane”?",
+        "options": ["Venus","Mars","Jupiter","Mercury"],
+        "answer": "Mars",
+        "trivia": "Mars is called the “Red Planet” because of its reddish appearance, which comes from iron oxide (rust) on its surface. This distinctive color makes it easily recognizable, even to the naked eye from Earth!"
+    },
+    {
+        "question": "Who is most often credited with inventing electricity?",
+        "options": ["Thomas Edison","Nikola Tesla","Benjamin Franklin","Michael Faraday"],
+        "answer": "Benjamin Franklin",
+        "trivia": "While Benjamin Franklin is often credited with discovering electricity, he did not actually invent it. His famous kite experiment in 1752 demonstrated that lightning is a form of electrical energy, which paved the way for later discoveries. Electricity itself is a natural phenomenon, and many scientists contributed to understanding and harnessing it!"
+    },
+    {
+        "question": "Anti-clockwise moves in which direction?",
+        "options": ["Left","Right","Up","Down"],
+        "answer": "Left",
+        "trivia": "Anti-clockwise, also known as counterclockwise, refers to a circular motion that goes in the opposite direction of the hands of a clock. In most cultures, this motion is associated with turning to the left!"
+    },
+    {
+        "question": "The sun rises in the...",
+        "options": ["West","East","North","South"],
+        "answer": "East",
+        "trivia": "The sun rises in the east due to the Earths rotation. As the Earth rotates from west to east, it creates the illusion that the sun is rising in the eastern part of the sky and setting in the west!"
+    },
+    {
+        "question": "How many years are in a millennia?",
+        "options": ["100 years","1,000 years","10,000 years","100,000 years"],
+        "answer": "1,000 years",
+        "trivia": "A millennium is a period of 1,000 years. The term comes from the Latin words “mile” (thousand) and “annus” (year), and it is often used to describe significant spans of time, like the turn of a century or era!"
+    },
+    {
+        "question": "What is the worlds smallest continent?",
+        "options": ["Africa","Asia","Australia","Europe"],
+        "answer": "Australia",
+        "trivia": "Australia is the smallest continent, covering around 2.94 million square miles. It is often referred to as both a continent and a country, and it is known for its unique wildlife, vast deserts, and beautiful coastlines!"
+    },
+    {
+        "question": "In what year did the Titanic sink?",
+        "options": ["1908","1912","1915","1920"],
+        "answer": "1912",
+        "trivia": "The RMS Titanic sank on its maiden voyage on April 15, 1912, after hitting an iceberg. It was one of the deadliest maritime disasters in history, and its story continues to captivate people worldwide, inspiring books, films, and research."
+    }
+    ]
+}

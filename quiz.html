@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Quiz Whiz</title>
+</head>
+<body>
+    <section id="section">
+    <div id="quizTitleContainer" style="background-color: white;">
+        <a id="arrowButton" style="background-color: white;" href="index.html">
+            <img src="images/arrow-left-solid.png" width="20px" style="opacity: .6;">
+        </a>
+        <p style="background-color: white;">General knowledge Quiz</p>
+        <img id="settingButton" src="images/settings.png" width="20px">
+    </div>
+    <div id="upperQuestionContainer" style="display: flex; padding: 10px;">
+        <div style="display: flex; margin-left: 20px;">
+            <b id="currentQuiz"></b>
+            <b id="totalQuizzes"></b>
+        </div>
+        <b id="score" style="position: absolute; right: 0; margin-right: 20px;"></b>
+    </p>
+    </div>
+    <div id="question-container">
+        <div style="width: 90vw; margin: 0 auto;">
+            <div id="question" style="background-color: white; font-size: 1.3rem;">Question Here:</div>
+        </div>
+        <div id="button-container">
+
+        </div>
+        <div style="width: 90vw; margin: 0 auto;">
+            <p id="p"></p>
+        </div>
+        <button type="button" id="next">Next</button>
+        <audio id="bgplay" loop>
+            <source src="audio/satisfying-lofi-for-focus-study-amp-working-242103.mp3">
+        </audio>
+    </div>
+    </section>
+
+    <div id="settingOpen">
+        <div class="header">
+            <p style="background-color: white; font-size: .9rem; padding-top: 10px;">Quiz Settings</p>
+            <img id="close" src="images/X-Lg--Streamline-Bootstrap (1).png">
+        </div>
+        <div class="switchContainer">
+            <p class="Text" style="background-color: white;">Background Music</p>
+            <label class="switch">
+                <input type="checkbox" id="music" class="check">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+    <div id="functionalitiesContainer">
+        <img src="images/Next--Streamline-Micro.png" alt="" style="transform: scaleX(-1);">
+        <button class="functionbtn">
+            <img src="images/One-Finger-Long-Tap--Streamline-Micro.png" alt="" class="bgcolor"> 
+            <p style="font-size: 1rem;" class="bgcolor">Hint</p>
+        </button>
+        <button class="functionbtn">
+            <img src="images/User-Search-Magnifier--Streamline-Micro.png" alt="" class="bgcolor">
+            <p style="font-size: 1rem;" class="bgcolor">Reveal</p>
+        </button>
+        <img src="images/Next--Streamline-Micro.png" alt="" style="opacity: .85;">
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

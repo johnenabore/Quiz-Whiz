@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Quiz Whiz</title>
+</head>
+<style>
+    * {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+#header {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+#email, #password, #conpassword, #SUpassword, #SUemail{
+    width: 70vw;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+}
+
+input::placeholder {
+    font-size: medium;
+    font-weight: 700;
+    color: black;
+    padding-left: 5px;
+}
+#remfor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: small; 
+    margin-bottom: 40px; 
+}
+#forgot {
+    text-decoration: none;
+    color: black;
+}
+
+#forgot:hover {
+    color: blue;
+}
+
+#signin,#buttonUp{
+    width: 70vw;
+    padding: 21px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+#button, #buttonUp{
+    border: none;
+    background-color: black;
+    color: white;
+}
+#acc {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+#signup {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+#error, #errorr{
+    color: red;
+}
+
+</style>
+<body>
+    <section id="login">
+
+        <div id="header">
+        <header>Sign Up Account</header>
+        </div>
+
+        <form id="form">
+            <div>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div>
+                <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+            </div>
+            <div>
+                <input type="password" name="password" id="conpassword" placeholder="Confirm Password" autocomplete="off">
+            </div>
+            <p id="error"></p>
+            <div id="create">
+                <button id="buttonUp" type="button">Create Account</button>
+            </div>
+        </form>        
+    </section>
+    <script src="account.js"></script>
+</body>
+</html>
