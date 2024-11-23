@@ -10,7 +10,7 @@ function login(){
             throw "password does not match"
         }
         console.log("Asde")
-        window.location.href = "home.html"
+        window.location.href = "index.html"
     }
     catch(errormessage){
         document.getElementById("errorr").innerHTML = errormessage;
